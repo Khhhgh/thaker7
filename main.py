@@ -34,7 +34,7 @@ def id_file1(id):
  
 ti=0
 users = []
-token = "6477545499:AAFurq6jQ1J5BuYeV3xdEdKSwnIU3HsZUzE"
+token = "6392221858:AAHTgmui4gpxwqa2S54lgfsYo26A7h11p70"
 print('- اذهب للبوت واضغط \n /start')
 bot = telebot.TeleBot(token) 
 def short(url):
@@ -44,8 +44,8 @@ def start(message):
    id = message.from_user.id
    with open('users.txt','a') as f3:
     f3.write(f'{id}\n')
-    channel = "A_S_4A" # Your channel username without @
-    channey = "lk7_69" # Your channel username without @
+    channel = "hope521" # Your channel username without @
+    
     a = message.from_user.first_name
     b = message.from_user.username
     if message.chat.type == "private":
@@ -66,20 +66,8 @@ def start(message):
 -» اشترك في القناة @{channel} .
 -» ثم ارسل /start ✅ </strong>''',reply_markup=z,parse_mode='html')
 
-      r = requests.get(f"https://api.telegram.org/bot{token}/getChatMember?chat_id=@{channey}&user_id={id}").text
-      if r.count("left") or r.count("Bad Request: user not found"):
-      	h = types.InlineKeyboardMarkup()
-      	r = types.InlineKeyboardButton(text = "➕ channey ",url=f"t.me/{channey}")
-      	h.add(r)
-      	return bot.send_message(message.chat.id,f'''<strong>- ⌔︙عليك الاشتراك في قناة البوت لأستخدام الاوامر
--» اشترك في القناة @{channey} .
--» ثم ارسل /start ✅ </strong>''',reply_markup=h,parse_mode='html')
-
-        
-      video = 'https://t.me/jbvhhvvh/7'
-      
-      bot.send_video(message.chat.id,video) 
-      bot.send_message(message.chat.id,f"جاي انزل مقاطع للبوت انتضرو بعد👻💕") 
+     
+      bot.send_message(message.chat.id,f"اهلا\tبك\tلبدأ\tالتحميل\tاضغط\n/TIKTOK") 
 	    
 @bot.message_handler(commands = ["TIKTOK"])
 def s1(message):
@@ -97,7 +85,7 @@ def ag(message):
 	try:
 		request = get(f"https://www.tikwm.com/api/?url={url}").json()
 		video = request["data"]["play"]
-		bot.send_video(message.chat.id,video,caption="- تم تحميل الفيديو\nرابط بوت التحميل : @T_4IJ . ")
+		bot.send_video(message.chat.id,video,caption="- تم تحميل الفيديو\nرابط بوت التحميل : @TOM6Y7BOT . ")
 	except:
 		bot.send_message(message.chat.id,f"-  الرابط غير صالح ❌ . ")
 bot.infinity_polling()
