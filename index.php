@@ -11,21 +11,21 @@ function safeFileGetContents($file_path) {
 flush();
 ob_start();
 ##########
-$token = "7362214073:AAHfJS5mh7O2xDPTvfVKU3ix35prCeZxgfc"; // توكنك
-$kindi = "7362214073:AAHfJS5mh7O2xDPTvfVKU3ix35prCeZxgfc"; // توكنك
+$token = "7709551482:AAFAp_i7pGSdiVMGgqdMRO6ID4h7G8Iq7Zw"; // توكنك
+$kindi = "7709551482:AAFAp_i7pGSdiVMGgqdMRO6ID4h7G8Iq7Zw"; // توكنك
 
 $buy = "AIikindi";
-$userbot = "Vcfgfxygfvbot";
-$sudo = "8011996271"; // ايديك
+$userbot = "Juejrjrjrbot";
+$sudo = "7700567038"; // ايديك
 $admin = "$sudo";
-$idBot = "7362214073"; // ايدي بوتك
+$idBot = "7700567038"; // ايدي بوتك
 $admmm = $sudo;
 $ADMIN = $sudo;
-$Dev = array("$sudo", "8011996271"); // ايديك
+$Dev = array("$sudo", "7700567038"); // ايديك
 $Devd = "$sudo";
 $tbbots = "$userbot"; /// يوزر بوتك بدون @
 
-$channel = "mojgghhh"; /// يوزر قناتك بدون @
+$channel = "A_S_4A"; /// يوزر قناتك بدون @
 $chinnl = "$channel";
 $DevUser = "@$buy"; //  Dev User
 $Devch = "@$buy"; // Dev Channel
