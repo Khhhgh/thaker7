@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: telegram-php-bot
+    env: php
+    plan: free
+    buildCommand: ""
+    startCommand: ""
